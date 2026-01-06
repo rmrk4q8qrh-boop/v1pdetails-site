@@ -1,1 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V1PDETAILS | Premium Auto Detailing in New Orleans</title>
+    <link rel="icon" type="image/x-icon" href="https://img.icons8.com/color/48/000000/car.png">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { background-color: #0a0a0a; color: #f0f0f0; line-height: 1.6; }
+        .container { width: 90%; max-width: 1200px; margin: 0 auto; padding: 20px; }
+        header { background: linear-gradient(to right, #000000, #1a0000); padding: 4rem 0; text-align: center; border-bottom: 5px solid #ff0000; background-image: url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80'); background-size: cover; background-blend-mode: overlay; background-position: center; }
+        h1 { font-size: 3.5rem; margin-bottom: 0.5rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.8); }
+        .highlight { color: #ff0000; }
+        .tagline { font-size: 1.4rem; font-weight: 300; margin-bottom: 2rem; text-shadow: 1px 1px 2px rgba(0,0,0,0.8); }
+        .cta-button { display: inline-block; background-color: #ff0000; color: white; padding: 1rem 3rem; text-decoration: none; font-weight: bold; font-size: 1.2rem; border-radius: 5px; transition: background-color 0.3s, transform 0.2s; margin: 0.5rem; }
+        .cta-button:hover { background-color: #cc0000; transform: translateY(-2px); }
+        section { padding: 4rem 0; border-bottom: 1px solid #333; }
+        h2 { text-align: center; font-size: 2.5rem; margin-bottom: 3rem; color: #fff; }
+        .service-grid, .price-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; }
+        .service-card, .price-card { background-color: #1a1a1a; padding: 2rem; border-radius: 10px; border-top: 4px solid #ff0000; transition: transform 0.3s; }
+        .service-card:hover, .price-card:hover { transform: translateY(-5px); }
+        h3 { color: #ff0000; margin-bottom: 1rem; }
+        .price { font-size: 2rem; font-weight: bold; color: #fff; }
+        .note { font-style: italic; color: #aaa; margin-top: 1rem; font-size: 0.9rem; }
+        .contact-info { text-align: center; font-size: 1.3rem; }
+        .contact-info a { color: #ff0000; text-decoration: none; font-weight: bold; }
+        footer { text-align: center; padding: 2rem 0; color: #777; font-size: 0.9rem; border-top: 1px solid #333; margin-top: 2rem; }
+        .hero-buttons { margin-top: 2rem; }
+        @media (max-width: 768px) {
+            h1 { font-size: 2.5rem; }
+            .tagline { font-size: 1.1rem; }
+            .service-grid, .price-grid { grid-template-columns: 1fr; }
+            .cta-button { display: block; margin: 1rem auto; width: 80%; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>V1P<span class="highlight">DETAILS</span></h1>
+            <p class="tagline">Premium Auto Detailing in New Orleans | Showroom Shine, Guaranteed</p>
+            <div class="hero-buttons">
+                <a href="#pricing" class="cta-button">View Packages & Pricing</a>
+                <a href="#contact" class="cta-button">Call Now to Book</a>
+            </div>
+        </div>
+    </header>
 
+    <section id="services">
+        <div class="container">
+            <h2>Our Premium Services</h2>
+            <div class="service-grid">
+                <div class="service-card">
+                    <h3>Exterior Detailing</h3>
+                    <p>Protect your paint and restore deep gloss. Choose from our three tiers of exterior care.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Interior Detailing</h3>
+                    <p>Deep clean and sanitize your cabin. From basic vacuum to full leather conditioning.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Paint Correction & Polish</h3>
+                    <p>Our most advanced service. Remove swirls and scratches to restore a flawless, showroom finish.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Headlight Restoration</h3>
+                    <p>Clear cloudy, yellowed headlights for improved nighttime visibility and a like-new look.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing">
+        <div class="container">
+            <h2>Clear-Cut Pricing</h2>
+            <p style="text-align:center; margin-bottom:2rem;">Sedan / Coupe Pricing. <strong>Large SUVs add +50%.</strong></p>
+            <div class="price-grid">
+                <div class="price-card">
+                    <h3>Basic Package</h3>
+                    <p class="price">$30 / $45</p>
+                    <p><strong>Exterior:</strong> Hand wash, wheel clean, tire dressing, window clean.<br><strong>Interior:</strong> Vacuum, surface wipe-down, window clean.</p>
+                </div>
+                <div class="price-card">
+                    <h3>Silver Package</h3>
+                    <p class="price">$45 / $60</p>
+                    <p><strong>Exterior:</strong> Basic + clay bar treatment, wax sealant, trim restoration.<br><strong>Interior:</strong> Basic + deep upholstery clean, dashboard conditioning, odor neutralization.</p>
+                </div>
+                <div class="price-card">
+                    <h3>Premium Package</h3>
+                    <p class="price">$60 / $80</p>
+                    <p><strong>Exterior:</strong> Silver + paint decontamination, ceramic spray coating, enhanced gloss.<br><strong>Interior:</strong> Silver + leather conditioning, fabric protection, thorough crevice cleaning.</p>
+                </div>
+            </div>
+            <div style="margin-top: 3rem;">
+                <h3 style="text-align:center;">À La Carte Services</h3>
+                <div class="price-grid">
+                    <div class="price-card">
+                        <h3>Full Polish</h3>
+                        <p class="price">$200 / $400</p>
+                        <p>Multi-stage paint correction for sedans and large SUVs.</p>
+                    </div>
+                    <div class="price-card">
+                        <h3>Headlight Restoration</h3>
+                        <p class="price">$50 / pair</p>
+                        <p>Restore clarity and brightness to cloudy headlights.</p>
+                    </div>
+                </div>
+            </div>
+            <p class="note">All services use premium products. Contact us for exact quotes on vehicles larger than standard SUVs.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact V1PDETAILS</h2>
+            <div class="contact-info">
+                <p>Ready for a detail that stands out? Reach out to schedule your appointment.</p>
+                <p><strong>Phone:</strong> <a href="tel:504-358-4322">(504) 358-4322</a></p>
+                <p><strong>Email:</strong> <a href="mailto:crcarlos121@icloud.com">crcarlos121@icloud.com</a></p>
+                <p>Serving the Greater New Orleans Area</p>
+                <br>
+                <a href="tel:504-358-4322" class="cta-button">📞 Call Now to Book</a>
+                <a href="mailto:crcarlos121@icloud.com" class="cta-button">✉️ Email for Quote</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2023 V1PDETAILS. Premium Mobile Auto Detailing in New Orleans.</p>
+            <p>Black & Red | Modern Detailing</p>
+        </div>
+    </footer>
+
+    <script>
+        // Simple script for smooth scrolling when clicking nav buttons
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                if(targetId === '#') return;
+                const targetElement = document.querySelector(targetId);
+                if(targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
